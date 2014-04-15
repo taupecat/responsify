@@ -1,0 +1,828 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"header_image_me",
+				"header_image_medium_src"
+			],
+			[
+				"attachment",
+				"attachment_id"
+			],
+			[
+				"str_r",
+				"str_replace"
+			],
+			[
+				"footer-wid",
+				"footer-widget-area-1"
+			],
+			[
+				"side",
+				"sidebar-secondary"
+			],
+			[
+				"main",
+				"main_content_area_class"
+			],
+			[
+				"cont",
+				"context-large"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"primar",
+				"primary-navigation-container"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"login",
+				"loginPanes"
+			],
+			[
+				"single",
+				"single-column-width"
+			],
+			[
+				"column",
+				"column-width"
+			],
+			[
+				"ma",
+				"master-color"
+			],
+			[
+				"body-fon",
+				"body-font-family"
+			],
+			[
+				"screen",
+				"screen-reader-text"
+			],
+			[
+				"twenty",
+				"twentytwelve-child"
+			],
+			[
+				"primary",
+				"primaryNavContainer"
+			],
+			[
+				"toggle",
+				"togglePrimaryNav"
+			],
+			[
+				"tog",
+				"togglePrimaryNav"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"wp_enqueue_",
+				"wp_enqueue_scripts"
+			],
+			[
+				"wp_",
+				"wp_enqueue_script"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"global",
+				"global_options"
+			],
+			[
+				"aft",
+				"after_widget"
+			],
+			[
+				"be",
+				"before_widget"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"te",
+				"text-indent"
+			],
+			[
+				"convert",
+				"convertLongMenuToSelect"
+			],
+			[
+				"bo",
+				"text-bottom"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"create",
+				"createMenuButton"
+			],
+			[
+				"text-",
+				"text-indent"
+			],
+			[
+				"repe",
+				"repeat-x"
+			],
+			[
+				"after",
+				"after_setup_theme"
+			],
+			[
+				"backgro",
+				"background-color"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"n",
+				"nth-of-type"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"borde",
+				"border-bottom"
+			],
+			[
+				"backgrou",
+				"background-position"
+			],
+			[
+				"social",
+				"social-icons-hidpi"
+			],
+			[
+				"socia-",
+				"social-icons-hidpi"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "demo/scss/_demo-1.scss",
+			"settings":
+			{
+				"buffer_size": 565,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "demo/scss/_demo-2.scss",
+			"settings":
+			{
+				"buffer_size": 635,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "demo/demo-3.html",
+			"settings":
+			{
+				"buffer_size": 1676,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "demo/scss/_demo-5.scss",
+			"settings":
+			{
+				"buffer_size": 814,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "demo/scss/_demo-6.scss",
+			"settings":
+			{
+				"buffer_size": 978,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/usr/local/web/wordpress36/htdocs/wp-content/themes/twentytwelve-child/functions.php",
+			"settings":
+			{
+				"buffer_size": 572,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 374.0,
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"git",
+				"Git: Init"
+			],
+			[
+				"diff",
+				"FileDiffs: Menu"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 417.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/taupecat/GitHub/reveal.js/index.html",
+		"/Users/taupecat/GitHub/reveal.js/demo/scss/_demo-4.scss",
+		"/Users/taupecat/GitHub/reveal.js/demo/scss/_demo-3.scss",
+		"/Users/taupecat/GitHub/reveal.js/demo/scss/_demo-1.scss",
+		"/Users/taupecat/GitHub/reveal.js/demo/scss/_demo-2.scss",
+		"/Users/taupecat/GitHub/reveal.js/demo/scss/_demo-5.scss",
+		"/Users/taupecat/GitHub/reveal.js/demo/scss/_demo-6.scss",
+		"/usr/local/web/wordpress36/htdocs/wp-content/themes/twentytwelve-child/functions.php",
+		"/Users/taupecat/GitHub/reveal.js/demo/demo-1.html",
+		"/Users/taupecat/GitHub/reveal.js/demo/demo-2.html",
+		"/Users/taupecat/GitHub/reveal.js/demo/demo-3.html",
+		"/Users/taupecat/GitHub/reveal.js/demo/demo-5.html",
+		"/Users/taupecat/GitHub/reveal.js/demo/demo-4.html",
+		"/Users/taupecat/GitHub/reveal.js/demo/demo-6.html",
+		"/usr/local/web/wordpress36/htdocs/wp-content/themes/twentytwelve-child/function.php",
+		"/Users/taupecat/GitHub/reveal.js/demo/index.html",
+		"/usr/local/web/wordpress36/htdocs/wp-content/themes/twentytwelve-child/style.css",
+		"/Users/taupecat/GitHub/reveal.js/demo/scss/_intro.scss",
+		"/Users/taupecat/GitHub/reveal.js/demo/scss/_global.scss",
+		"/Users/taupecat/GitHub/reveal.js/demo/robots.txt",
+		"/Users/taupecat/GitHub/reveal.js/demo/Vagrantfile",
+		"/Users/taupecat/GitHub/reveal.js/outline.md",
+		"/Users/taupecat/GitHub/reveal.js/css/theme/default.css",
+		"/Users/taupecat/GitHub/reveal.js/css/reveal.css",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/chapter-08/manning/functions.php",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/chapter-08/manning/inc/custom-header.php",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/manning/inc/custom-header.php",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Manuscript/Kovshenin.txt",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/manning/functions.php",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/manning/sass/_responsive.scss",
+		"/usr/local/web/manning/htdocs/wp-content/themes/twentytwelve/functions.php",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/manning/sass/_fonts.scss",
+		"/usr/local/web/manning/htdocs/wp-includes/media.php",
+		"/usr/local/web/manning/htdocs/wp-includes/theme.php",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/manning/sass/_header.scss",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/manning/header.php",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/manning/sass/style.scss",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/manning/footer.php",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/manning/sass/_widgets.scss",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/chapter-07/manning/sass/_widgets.scss",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/chapter-07/manning/functions.php",
+		"/Users/taupecat/GitHub/_s/sass/_widgets.scss",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/chapter-07/manning/sass/style.scss",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/chapter-07/manning/sass/_responsive.scss",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/manning/sass/_content.scss",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/chapter-07/manning/sass/_content.scss",
+		"/Users/taupecat/GitHub/_s/sass/_content.scss",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/manning/sass/_menu.scss",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/chapter-07/manning/sass/_menu.scss",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/chapter-07/manning/sass/_global.scss",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/chapter-07/manning/sass/_reset.scss",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/prototype/sass/_genericons.scss",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/chapter-07/manning/sass/_fonts.scss",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/prototype/sass/_fonts.scss",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/prototype/sass/_reset.scss",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/chapter-07/manning/sass/_header.scss",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/prototype/sass/_global.scss",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/prototype/sass/_header.scss",
+		"/Users/taupecat/GitHub/_s/header.php",
+		"/Users/taupecat/GitHub/_s/page.php",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/manning/README.md",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/manning/archive.php",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/manning/comments.php",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/manning/index.php",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/manning/page.php",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/manning/sidebar-left.php",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/manning/sidebar-right.php",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/manning/sass/_global.scss",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/chapter-07/manning/archive.phpbak",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/chapter-07/manning/archive.php",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/prototype/archive.html",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/prototype/index.html",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/prototype/single.html",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/prototype/underscores-archive.html",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/prototype/underscores-home.html",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/prototype/underscores-single.html",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/prototype/scss/_menu.scss",
+		"/Users/taupecat/GitHub/_s/sass/_reset.scss",
+		"/Users/taupecat/GitHub/_s/sass/_global.scss",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/manning/sass/_reset.scss",
+		"/Users/taupecat/GitHub/_s/sass/_asides.scss",
+		"/Users/taupecat/GitHub/_s/sass/_comments.scss",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/chapter-07/manning/sass.bak/_global.scss",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/chapter-07/manning/sass.bak/_reset.scss",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/prototype/scss/style.scss",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/prototype/scss/_navigation.scss",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/prototype/scss/_widgets.scss",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/prototype/scss/_global.scss",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/prototype/scss/_content.scss",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/prototype/scss/_responsive.scss",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/prototype/scss/_header.scss",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/prototype/scss/_reset.scss",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/prototype/scss/_main.scss",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/prototype/scss/_sidebars.scss",
+		"/Users/taupecat/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/prototype/scss/_fonts.scss",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/prototype/scss/prototype.scss",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/prototype/scss/_comments.scss",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/chapter-07/manning/header.php",
+		"/usr/local/web/manning/htdocs/wp-includes/nav-menu-template.php",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/chapter-07/manning/sass/_navigation.scss",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/chapter-07/manning/sass/underscores/_reset.scss",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/chapter-07/manning/sass/underscores/_global.scss",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/prototype/prototype.css",
+		"/Users/taupecat/GitHub/_s/sass/underscores/_asides.scss",
+		"/Users/taupecat/GitHub/_s/sass/underscores/_comments.scss",
+		"/Users/taupecat/GitHub/_s/sass/underscores/_content.scss",
+		"/Users/taupecat/GitHub/_s/sass/underscores/_global.scss",
+		"/Users/taupecat/GitHub/_s/sass/underscores/_infinite-scroll.scss",
+		"/Users/taupecat/GitHub/_s/sass/underscores/_media.scss",
+		"/Users/taupecat/GitHub/_s/sass/underscores/_menu.scss",
+		"/Users/taupecat/GitHub/_s/sass/underscores/_navigation.scss",
+		"/Users/taupecat/GitHub/_s/sass/underscores/_reset.scss",
+		"/Users/taupecat/GitHub/_s/sass/underscores/_widgets.scss",
+		"/Users/taupecat/GitHub/_s/style.css",
+		"/Users/taupecat/GitHub/_s/README.md",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/chapter-05/scss/prototype.scss",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/chapter-05/scss/_global.scss",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/chapter-07/manning/sass/header.scss",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/chapter-07/manning/index.php",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/chapter-07/manning/page.php",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/chapter-07/manning/404.php",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/chapter-07/manning/comments.php",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/chapter-07/manning/content-single.php",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/chapter-07/manning/content.php",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/chapter-07/manning/footer.php",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/chapter-07/manning/image.php",
+		"/Users/taupecat/Dropbox/ Responsive WordPress Themes Book/Code/chapter-07/manning/inc/custom-header.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"picturefil",
+			"picture",
+			"ul",
+			"rl",
+			"ul",
+			"rl",
+			"fonts",
+			"get_theme_mod",
+			"image",
+			"page-content",
+			"%clearfix",
+			"%clearfix`.cl",
+			"font-size",
+			"sub-nav",
+			"children",
+			"640px",
+			"1024px",
+			"640px",
+			"1024px",
+			"640px",
+			"e9e2dd",
+			"1024px",
+			"640px",
+			"box-",
+			"box-shadow",
+			"box-",
+			"Right",
+			"right",
+			"theme_location",
+			"underscores/",
+			"font-size",
+			"html",
+			"text",
+			"_s_",
+			"'_s'",
+			"color",
+			"loginPanes",
+			"login",
+			"max-width",
+			"Column ",
+			"1",
+			"default-font-size",
+			".flexslider(",
+			".flexslider",
+			"@import \"([a-z\\-]*)\";",
+			"@media",
+			"get_template_directory",
+			"style",
+			"Clearfix",
+			"$",
+			"#771717",
+			"style",
+			"body",
+			"float",
+			"body",
+			"$red",
+			"#771717",
+			"top,  ",
+			"float",
+			"text=logo",
+			"get_avatar",
+			"size",
+			"Reset",
+			"grid",
+			"em",
+			"logo",
+			"first",
+			"flexnav",
+			"flexNav",
+			"first-child",
+			"alpha",
+			"menu",
+			"twitter",
+			"title",
+			"twitter",
+			"title",
+			"Title",
+			"post_counter",
+			"display: none",
+			"em",
+			"$is_mobile",
+			"default",
+			"11.4",
+			"$(",
+			"toggle",
+			"twitter",
+			"post-formats",
+			"post_thumbnail",
+			"set_post",
+			"add_theme_support",
+			"post_thumbnail",
+			"twentythirteen_",
+			"_wp_theme_features",
+			"post-thu",
+			"add_theme_support",
+			"wp-head-callback",
+			"twentythirteen_header_style",
+			"head",
+			"header",
+			"twentythirteen_post_nav",
+			"header",
+			"version_compare",
+			"header",
+			"add_theme_support",
+			"header",
+			"twitter",
+			"exten"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"$context-medium",
+			"$context-large",
+			"$context-medium",
+			"$context-large",
+			"$context-medium",
+			"$context-large",
+			"$context-medium",
+			"manning_",
+			"",
+			"manning_",
+			"'manning'",
+			"@import \"underscores/\\1\";",
+			"$red",
+			"top, "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "demo/scss/_demo-1.scss",
+					"settings":
+					{
+						"buffer_size": 565,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								120,
+								120
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "demo/scss/_demo-2.scss",
+					"settings":
+					{
+						"buffer_size": 635,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								624,
+								624
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "demo/demo-3.html",
+					"settings":
+					{
+						"buffer_size": 1676,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								977,
+								977
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "demo/scss/_demo-5.scss",
+					"settings":
+					{
+						"buffer_size": 814,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								211,
+								294
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "demo/scss/_demo-6.scss",
+					"settings":
+					{
+						"buffer_size": 978,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								698,
+								810
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/usr/local/web/wordpress36/htdocs/wp-content/themes/twentytwelve-child/functions.php",
+					"settings":
+					{
+						"buffer_size": 572,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								571,
+								571
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 186.0,
+	"status_bar_visible": true
+}
