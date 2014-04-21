@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,7 +17,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<link rel="stylesheet" href="css/reveal.min.css">
-		<link rel="stylesheet" href="css/theme/rp3-light.css" id="theme">
+		<link rel="stylesheet" href="css/theme/rp3-dark.css" id="theme">
 		<!-- <link media="print" href="/css/print/pdf.css"> -->
 
 		<!-- For syntax highlighting -->
@@ -38,11 +40,11 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<img src="images/3vftcq.jpg" style="width: 50%; height: auto;">
+					<img src="images/3vftcq.jpg" style="width: auto; height: 33%;">
 
 					<h2>Make Your Website Everything-Friendly</h2>
 
-					<p>Follow along at <a href="http://taupecat.com/responsify">http://taupecat.com/responsify</a></p>
+					<p>Follow along at <a href="http://taupecat.github.io/responsify">http://taupecat.github.io/responsify</a></p>
 
 					<aside class="notes">
 						<ul>
@@ -56,15 +58,16 @@
 
 				<section>
 					<h3>Tweet it!</h3>
-					<p style="font-size: 1.4em;">I'm learning how and why I should <strong>responsify</strong> my website at #WCBalt!</p>
+					<p style="font-size: 1.4em;">I'm learning how and why I should <strong>responsify</strong> my website at #WCMiami!</p>
+					<img src="images/twerking.gif" style="width: auto; height: 33%;">
 				</section>
 
 				<section data-markdown>
 					<script type="text/template">
 						## Tracy Rotton
 
-						Web Developer for  
-						RP3 Agency, Bethesda, Maryland
+						Lead Web Developer  
+						[RP3 Agency](http://rp3agency.com), Bethesda, Maryland
 
 						http://www.taupecat.com  
 						tracy@taupecat.com  
@@ -73,7 +76,7 @@
 				</section>
 
 				<section>
-					<h1>Introduction</h1>
+					<h2>Introduction</h2>
 				</section>
 
 				<section>
@@ -122,7 +125,7 @@
 				</section>
 
 				<section>
-					<h1>Basics</h1>
+					<h2>Basics</h2>
 				</section>
 
 				<section>
@@ -194,11 +197,10 @@
 
 					<pre><code data-trim>
 &lt;picture>
-  &lt;source src="low-res.jpg">
-  &lt;source media="(min-width: 400px)" src="medium-res.jpg">
-  &lt;source media="(min-width: 1000px)" src="high-res.jpg">
-  &lt;img src="fallback.jpg" alt="Our fallback image">
-  &lt;p>When all else fails…&lt;/p>
+  &lt;source srcset="high-res.jpg" media="(min-width: 1000px)">
+  &lt;source srcset="medium-res.jpg" media="(min-width: 400px)">
+  &lt;source srcset="low-res.jpg">
+  &lt;img srcset="fallback.jpg" alt="Our fallback image">
 &lt;/picture>
 					</code></pre>
 
@@ -206,8 +208,8 @@
 						<li>Works much like &lt;video> and &lt;audio></li>
 						<li>Uses built-in media queries</li>
 						<li>Includes an &lt;img> fallback</li>
-						<li>Not supported in any browser</li>
-						<li>Picturefill.js mimics the &lt;picture> element</li>
+						<li>Coming soon to a browser near you</li>
+						<li>Picturefill.js enables support of the &lt;picture> element</li>
 						<li class="fragment"><strong>add_image_size()</strong></li>
 					</ul>
 
@@ -218,27 +220,6 @@
 						<p>demo</p>
 					</aside>
 				</section>
-
-				<section>
-					<h3>srcset Attribute</h3>
-
-					<pre><code data-trim>
-&lt;img src="fallback.jpg" alt="Our image" srcset="
-  low-res.jpg 400w,
-  medium-res.jpg 1000w,
-  high-res.jpg"
-/>
-					</code></pre>
-
-					<ul>
-						<li>srcset is a new attribute for the &lt;img> element</li>
-						<li>Contains multiple images with targeted media queries</li>
-						<li>Syntax is unintuitive</li>
-						<li>Implemented in WebKit nightly builds (kinda)</li>
-					</ul>
-
-				</section>
-
 
 				<section>
 					<h3>Responsive JPEGs</h3>
@@ -324,7 +305,6 @@
 						<li><strong>Media query bubbling</strong></li>
 					</ul>
 
-					<h3 style="margin-top: 1em;">Go see Brad Parbs's talk at 2pm</h3>
 				</section>
 
 				<section>
