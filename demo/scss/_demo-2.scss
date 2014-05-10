@@ -19,7 +19,8 @@ body.demo-2 {
         background-color: #C6D4F5;
     }
 
-    // @media only all and (min-width: 700px) {
+    // Set a breakpoint at 43.75em (700px @ 16px default font size)
+    // @media only all and (min-width: 43.75em) {
 
         .main,
         .sidebar {

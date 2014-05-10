@@ -164,7 +164,7 @@
 					<pre><code data-trim>
 /* Start with global declarations for all */
 
-@media only all and (min-width: 1024px) {
+@media only all and (min-width: 64em) {
 	/* Then stuff for larger viewports goes here */
 }
 					</code></pre>
@@ -200,16 +200,15 @@
   &lt;source srcset="high-res.jpg" media="(min-width: 1000px)">
   &lt;source srcset="medium-res.jpg" media="(min-width: 400px)">
   &lt;source srcset="low-res.jpg">
-  &lt;img srcset="fallback.jpg" alt="Our fallback image">
+  &lt;img srcset="low-res.jpg" alt="Our marvelous image.">
 &lt;/picture>
 					</code></pre>
 
 					<ul>
-						<li>Works much like &lt;video> and &lt;audio></li>
 						<li>Uses built-in media queries</li>
-						<li>Includes an &lt;img> fallback</li>
 						<li>Coming soon to a browser near you</li>
-						<li>Picturefill.js enables support of the &lt;picture> element</li>
+						<li><a href="http://scottjehl.github.io/picturefill/">Picturefill.js</a> enables support of the &lt;picture> element</li>
+						<li><a href="http://alistapart.com/blog/post/picture-element-qa">Picture Element Q&A</a></li>
 						<li class="fragment"><strong>add_image_size()</strong></li>
 					</ul>
 
