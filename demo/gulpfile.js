@@ -19,7 +19,7 @@ gulp.task( 'compass', function() {
 		.pipe(notify({ message: 'Compass task complete.' }));
 });
 
-gulp.task( 'default', ['compass', 'watch'] );
+gulp.task( 'default', ['compass'] );
 
 gulp.task( 'watch', function() {
 	gulp.watch('scss/**/*.scss', function() {
