@@ -1,10 +1,74 @@
-# RESPONSIFY ALL THE THINGS!
+# RESPONSIFY All the Things!
 
-## Make Your Site Everything-Friendly
+A guide to responsive WordPress in three acts:
+
+1. Be Mobile-First
+1. Responsive Images
+2. Flexbox
+
+* There is no "mobile" vs. "desktop": the web is the web is the web
+* More than breakpoints: responsive is accessible, performant, compatible
+* Basics
+	* 
+* Responsive images in WordPress
+	* scrset + sizes
+* Flexbox
+* Device detection
+* Polyfills
+
+
 
 * Mobile-friendly
 * Desktop-friendly
 * Future-friendly
+
+
+
+
+## It's a Mobile-First Kind of World
+
+* ~ 56% of all web traffic now comes from mobile devices (source: SimilarWeb "The State of Mobile Web in the US 2015")
+* However, keeping desktop users happy is still important. Desktop users spend more time per visit on a website
+	* 5:19 Desktop, 3:05 Mobile
+* Designing for mobile is designing for performance
+	* Be conscious of file size, connection speeds, JavaScript
+	* Can my website work with JavaScript turned off?
+	* Is my site accessible to people with disabilities?
+* All those plugins and included files add up
+	* HTTP/2 helps
+
+
+## Responsive Images, Now Playing in WordPress Core Near You
+
+* Since WordPress 4.4
+* srcset + sizes
+* Use the right image format for the job
+	* PNGs are great for flat colors, alpha transparency, high filesize
+	* JPEGs are for photographs, show artifacts
+	* SVGs are great for logos, vectors, but not for intricate designs
+* Hyper-compressed JPEGs
+* SVG masking of JPEGs
+
+## Let's spend some time with Flexbox
+
+* No longer the great layout promise of the future; flexbox is ready _today_
+* Flexbox browser support is ~ 97% USA, globally
+* Goes back to IE 10 (with prefixes and old syntax)
+	* Autoprefixer goes a long way
+* CSS Grids are Flexbox: The Next Generation
+
+
+
+
+
+
+
+
+
+
+# RESPONSIFY ALL THE THINGS!
+
+## Make Your Site Everything-Friendly
 
 ## "Responsify"
 
