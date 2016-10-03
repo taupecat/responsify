@@ -191,3 +191,19 @@ A guide to responsive WordPress in three acts:
 * @RWD
 
 ## My Book
+
+
+
+
+
+
+
+
+
+
+blue: #80b2ff
+green: #80ffb2
+yellow: #e5ff80
+red: #ff8080
+
+sizes: 84.6875vw, (min-width: 710px) 65.07042vw, (min-width: 910px) 60.65934vw
