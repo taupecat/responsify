@@ -32,14 +32,6 @@
 
 				</section>
 
-				<section>
-
-					<h3>Tweet it!</h3>
-
-					<p style="font-size: 1.4em;">I'm learning how and why I should <strong>responsify</strong> my website at #WCRoc!</p>
-
-				</section>
-
 				<section data-markdown>
 					## Tracy Rotton
 
@@ -59,8 +51,9 @@
 					<h3>What does it mean to be a responsive website in 2016?</h3>
 
 					<ul>
-						<li class="fragment">Desktop-friendly</li>
 						<li class="fragment">Mobile-friendly</li>
+						<li class="fragment">Desktop-friendly</li>
+						<li class="fragment">Touch-friendly</li>
 						<li class="fragment">Performance-friendly</li>
 						<li class="fragment">Bandwidth-friendly</li>
 						<li class="fragment">Everybody-friendly</li>
@@ -129,7 +122,7 @@
 
 					<section>
 
-						<h2>srcset & sizes</h2>
+						<h2>srcset & <strong>sizes</strong></h2>
 
 						<p>You tell the browser the possible sizes of images, and it serves the image appropriate for the viewport.</p>
 
@@ -158,9 +151,56 @@
 
 					<section>
 
-						<blockquote><p>While this default will work out of the box for a majority of sites, themes should customize the default sizes attribute as needed using the wp_calculate_image_sizes filter.</p></blockquote>
+						<blockquote><p>While [the] default will work out of the box for a majority of sites, themes should customize the default sizes attribute as needed using the wp_calculate_image_sizes filter.</p></blockquote>
 
 						<p><em>— <a href="https://profiles.wordpress.org/joemcgill">Joe McGill</a>, <a href="https://make.wordpress.org/core/2015/11/10/responsive-images-in-wordpress-4-4/">"Responsive Images in WordPress 4.4"</a></em></p>
+
+					</section>
+
+					<section>
+
+						<p>&lt;img srcset sizes/> is supported by <strong>74%</strong> of browsers globally.<sup>*</sup></p>
+
+						<p><small>Source: caniuse.com</small></p>
+
+						<p><img src="images/caniuse-srcset.png" style="max-height:50vh"/></p>
+
+					</section>
+
+					<section>
+
+						<p>&lt;img srcset="…" sizes="…"/> works for versions of an image that have the same aspect ratio. If you want to do something different, then you're talking art direction.</p>
+
+						<p>Which means you're talking…</p>
+					</section>
+
+					<section>
+						<h2>&lt;picture></h2>
+
+						<blockquote>
+							<p>The <strong>picture element</strong> is a markup pattern that allows developers to declare multiple sources for an image. By using media queries, it gives developers control as to when and if those images are presented to the user.</p>
+						</blockquote>
+
+						<p><em>— <a href="https://responsiveimages.org/">responsiveimages.org</a></em></p>
+					</section>
+
+					<section>
+						<p><code>
+							&lt;picture&gt;<br/>
+								&lt;source media="(min-width: 40em)" srcset="big.jpg 1x, big-hd.jpg 2x"><br/>
+								&lt;source srcset="small.jpg 1x, small-hd.jpg 2x"><br/>
+								&lt;img src="fallback.jpg" alt=""><br/>
+							&lt;/picture>
+						</code></p>
+					</section>
+
+					<section>
+
+						<p>&lt;picture> is supported by <strong>73%</strong> of browsers globally.</p>
+
+						<p><small>Source: caniuse.com</small></p>
+
+						<p><img src="images/caniuse-picture.png" style="max-height:50vh"/></p>
 
 					</section>
 
@@ -171,409 +211,37 @@
 
 
 				<section>
-					<h2>Act 3:</h2>
-
-					<p>Let's Spend Some Time with Flexbox</p>
-				</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-				<section>
-					<h2>Introduction</h2>
-				</section>
-
-				<section>
-					<h2>Who Started It?</h2>
-
-					<img src="images/a-list-apart.png">
-					<p>Ethan Marcotte in <i>A List Apart</i> (2010)</p>
-
-					<aside class="notes">
-						Built upon John Allsop's "The Dao of Web Design"<br>
-						too often, web designers had a fixed-canvas mindset, and didn't consider the fuidity of the web
-					</aside>
-				</section>
-
-				<section>
-					<h2>Why Does It Exist?</h2>
-
-					<ul>
-						<li>Reaction to <strong>mobile</strong> vs. <strong>desktop</strong> sites</li>
-						<li>Lines are blurred by a multitude of devices</li>
-						<li>Increasingly, all around the world, a <strong>mobile</strong> device is a person's <strong>primary</strong> means of accessing the Internet</li>
-					</ul>
-
-					<img src="images/Mural.png" width="100%" class="fragment">
-
-					<aside class="notes">
-						<ul>
-							<li>Multiple code bases make sites harder, more expensive to maintain</li>
-							<li>"Server Attention Span" problem</li>
-							<li>Browser-sniffing problem</li>
-						</ul>
-
-						<p>Devices shown are just the latest on the market.  Consider older devices, future devices</p>
-					</aside>
-
-				</section>
-
-				<section>
-					<h2>What Is It?</h2>
-
-					<ul>
-						<li class="fragment">Fluid layouts</li>
-						<li class="fragment">Flexible images and media</li>
-						<li class="fragment">CSS3 media queries</li>
-					</ul>
-				</section>
-
-				<section>
-					<h2>Basics</h2>
-				</section>
-
-				<section>
-					<h2>Meta Viewport Tag</h2>
-
-					<pre><code data-trim>
-&lt;!DOCTYPE html>
-&lt;html>
-&lt;head>
-  &lt;meta charset="utf-8">
-  &lt;title>RESPONSIFY All the Things!</title>
-  &lt;meta name="viewport" content="width=device-width, initial-scale=1">
-&lt;/head>
-&lt;body>
-  …
-&lt;/body>
-&lt;/html>
-					</code></pre>
-				</section>
-
-				<section>
-					<h2>Fluid Grid</h2>
-
-					<h3><strong>Target / Context = Result</strong></h3>
-
-					<aside class="notes">
-						<p>don't round your decimals!</p>
-
-						demo
-					</aside>
-				</section>
-
-				<section>
-					<h2>CSS3 Media Queries</h2>
-
-					<pre><code data-trim>
-/* Start with global declarations for all */
-
-@media only all and (min-width: 64em) {
-	/* Then stuff for larger viewports goes here */
-}
-					</code></pre>
-
-					<aside class="notes">
-						demo
-					</aside>
-				</section>
-
-				<section>
-					<h1>Advanced</h1>
-
-					<aside class="notes">
-						<ul>
-							<li>Everything images can be considered "advanced" because it's such a complex topic</li>
-							<li>Layout, CSS Preprocessors, plus other tools and "gotchas"</li>
-					</aside>
-				</section>
-
-				<section>
-					<h2>Images</h2>
-
-					<aside class="notes">
-						Battle between "picture" element and "srcset" attribute
-					</aside>
-				</section>
-
-				<section>
-					<h3>&lt;picture> Element</h3>
-
-					<pre><code data-trim>
-&lt;picture>
-  &lt;source srcset="high-res.jpg" media="(min-width: 1000px)">
-  &lt;source srcset="medium-res.jpg" media="(min-width: 400px)">
-  &lt;source srcset="low-res.jpg">
-  &lt;img srcset="low-res.jpg" alt="Our marvelous image.">
-&lt;/picture>
-					</code></pre>
-
-					<ul>
-						<li>Uses built-in media queries</li>
-						<li>Coming soon to a browser near you</li>
-						<li><a href="http://scottjehl.github.io/picturefill/">Picturefill.js</a> enables support of the &lt;picture> element</li>
-						<li><a href="http://alistapart.com/blog/post/picture-element-qa">Picture Element Q&A</a></li>
-						<li class="fragment"><strong>add_image_size()</strong></li>
-					</ul>
-
-					<aside class="notes">
-						Using WordPress' add_image_size() function to auto-scale and crop your images works nicely with a picturefill solution.
-						There's even a plugin for doing that.
-
-						<p>demo</p>
-					</aside>
-				</section>
-
-				<section>
-					<h3>Responsive JPEGs</h3>
-
-					<ul>
-						<li>Save as "progressive"</li>
-						<li>High compression, 2.2x size</li>
-					</ul>
-
-					<aside class="notes">
-						Don't do the high compression/double size thing in sliders. Heck, don't use sliders.
-
-						<p>demo</p>
-					</aside>
-				</section>
-
-				<section>
-					<h3>Warning for Responsive Images in WordPress</h3>
-
-					<ul>
-						<li>WordPress uses "width" and "height" attributes</li>
-						<li>Use "width" and "max-width" CSS properties to override</li>
-						<li><strong>Always</strong> set "height: auto;" or your images will be distorted</li>
-					</ul>
-				</section>
-
-
-
-				<section>
-					<h2>Layout</h2>
-				</section>
-
-
-				<section>
-					<h3>Box-Sizing</h3>
-
-					<p>Know this, love this:</p>
-
-					<pre><code data-trim>
-*, *:before, *:after {
-  box-sizing: border-box;
-}
-					</code></pre>
-
-					<p>Works in IE8+</p>
-
-					<aside class="notes">
-						demo
-					</aside>
-				</section>
-
-
-				<section>
-					<h3>Flexbox</h3>
-
-					<pre><code data-trim>
-.container {
-  display: flex;
-}
-					</code></pre>
-
-					<ul>
-						<li>Several older implementations exist in the wild</li>
-						<li>IE10+ support (but with older syntax)</li>
-					</ul>
-
-					<aside class="notes">
-						This is really neat, but not yet widely understood.  IE support limits usefulness now, but modernizr can be used 
-						to detect support and provide fallbacks
-					</aside>
-				</section>
-
-				<section>
 
 					<section>
-						<h3>Centering Absolutely Positioned Elements</h3>
 
-						<p><strong>Problem:</strong> With everything so fluid in RWD, it's often impossible to know the dimensions of a given element.</p>
+						<h2>Act 3:</h2>
+
+						<p>Let's Spend Some Time with Flexbox</p>
+
 					</section>
 
 					<section>
-						<h3>Centering Absolutely Positioned Elements</h3>
-						<p><strong>Solution:</strong> CSS 2D Transforms</p>
 
-						<p>(all the HTs to <a href="http://twitter.com/joshbroton">@joshbroton</a>)</p>
+						<p>Flexbox is supported by <strong>97%</strong> of browsers globally.</p>
+
+						<p><small>Source: caniuse.com</small></p>
+
+						<p><img src="images/caniuse-flexbox.png" style="max-height:50vh"/></p>
+
 					</section>
-				</section>
 
-				<section>
-					<h2>Miscellany</h2>
-				</section>
 
-				<section>
-					<h2>CSS Preprocessors</h2>
 
-					<ul>
-						<li>Would not recommend RWD without them</li>
-						<li>Variables, functions, mixins</li>
-						<li><strong>Media query bubbling</strong></li>
-						<li><a href="http://github.com/taupecat/sass-responsive/">http://github.com/taupecat/sass-responsive/</a></li>
-					</ul>
+
 
 				</section>
 
-				<section>
-					<h3>Better Units for Responsive Design</h3>
-
-					<ul>
-						<li><strong>vw, vh, vmin, vmax</strong><br>
-							Relative to the viewport</li>
-						<li><strong>rem</strong><br>
-							<i>root</i> ems</li>
-					</ul>
-				</section>
-
-				<section>
-					<h3>HTML5 Form Input Types</h3>
-
-					<ul>
-						<li>url</li>
-						<li>email</li>
-						<li>number</li>
-					</ul>
-
-					<aside class="notes">
-						Also date picker, color picker, etc. but support for those is limited.  Using these will make visitors to your site on devices
-						with virtual keyboards hate you a lot less.
-					</aside>
-				</section>
-
-				<section>
-					<h3>&lt;a> Tags</h3>
-
-					<p>&lt;a> tags can now contain other elements.<br>
-						Useful for creating large hit targets.</p>
-
-<pre><code data-trim>&lt;article>
-  &lt;a href="http://service.meltwaternews.com/…">
-    &lt;div class="meta-date">Apr 23 2014&lt;/div>
-
-    &lt;div class="content">
-      &lt;h1 class="entry-title">Washington's big housing problem: Not enough sellers&lt;/h1>
-
-      &lt;p>…sell seven years or more after they were bought. A report from Long &amp; Foster Real Estate…&lt;/p>
-
-    &lt;/div>
-  &lt;/a>
-&lt;/article></code></pre>
-
-					<aside class="notes">require careful styling; newsroom</aside>
-				</section>
-
-				<section>
-					<h1>Resources</h1>
-				</section>
-
-				<section>
-					<h2>Books</h2>
-
-					<ul>
-						<li><i><a href="http://www.abookapart.com/products/responsive-web-design">Responsive Web Design</a></i>, Ethan Marcotte</li>
-						<li><i><a href="http://www.abookapart.com/products/mobile-first">Mobile First</a></i>, Luke Wroblewski</li>
-						<li><i><a href="http://www.implementingresponsivedesign.com/">Implementing Responsive Design</a></i>, Tim Kadlec</li>
-						<li><i><a href="http://rwdwp.com/">Responsive Design with WordPress</a></i>, Joe Casabona</li>
-						<li><i><a href="http://responsivewptheming.com">Responsive WordPress Theming</a></i>, Tracy Rotton (in progress)</li>
-					</ul>
-				</section>
-
-				<section>
-					<h2>Web</h2>
-
-					<ul>
-						<li><a href="http://bradfrost.github.io/this-is-responsive/">This Is Responsive</a>, Brad Frost</li>
-						<li><a href="http://twitter.com/rwd">@RWD</a></li>
-						<li><a href="http://mediaqueri.es">Media Queries</a></li>
-					</ul>
-				</section>
-
-				<section>
-					<h1>Wrap Up</h1>
-
-					<p>When <strong>shouldn't</strong> I use responsive design?</p>
-
-					<p class="fragment">Make responsive design your default.</p>
-				</section>
-
-				<section>
-					<section>
-						<img src="images/greenchameleon-desktop.png">
-						<aside class="notes">
-							Not every agency believes in responsive design.
-						</aside>
-					</section>
-					<section>
-						<img src="images/greenchameleon.png">
-						<aside class="notes">
-							This makes me stabby.</aside>
-					</section>
-				</section>
-
-				<section>
-					<section><img src="images/rp3-clients.png" style="background-color:transparent"></section>
-					<section><h4 style="text-transform:none"><a href="http://rp3.io">RP3.io</a></h4> <img src="images/rp3io.png" style="background-color:transparent"> </section>
-
-					<aside class="notes">
-						But RP3 believes.
-					</aside>
-				</section>
 
 				<section>
 
-					<h1>Thanks!</h1>
+					<h2>Thanks</h2>
 
-					<h2>Now go forth and <strong>RESPONSIFY</strong>!</h2>
+					<p>Now go forth and <strong>RESPONSIFY</strong>!</p>
 
 				</section>
 
