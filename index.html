@@ -10,6 +10,27 @@
 		<link rel="stylesheet" href="css/reveal.min.css">
 		<link rel="stylesheet" href="css/theme/rp3-dark.css" id="theme">
 		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<style>
+			.sample-svg { display:block;width:50vmin;height:50vmin;margin:0 auto;background-color:rgba(0, 0, 0, 0.5); }
+
+			rect.left {
+			}
+
+			rect.top-right {
+			}
+
+			rect.bottom-right {
+				/*animation: spinner 5s infinite linear;
+				transform-origin: 50% 50%;*/
+			}
+
+			@-webkit-keyframes spinner {
+				0% { transform: rotate(0) }
+				50% { transform: rotate(180deg) }
+				100% { transform: rotate(360deg) }
+			}
+		</style>
 	</head>
 
 	<body>
@@ -31,17 +52,6 @@
 					<p><small>Follow along at <a href="https://taupecat.github.io/responsify">taupecat.github.io/responsify</a></small></p>
 
 				</section>
-
-				<section data-markdown>
-					## Tracy Rotton
-
-					### [RP3 Agency](https://rp3agency.com)
-
-					[@taupecat](https://twitter.com/taupecat)  
-					Web / Twitter / GitHub / all the other things
-				</section>
-
-
 
 				<section>
 					<h2>Prelude</h2>
@@ -204,6 +214,47 @@
 
 					</section>
 
+					<section>
+
+						<p>But for true responsiveness, you need to <strong>think outside the pixel</strong>.</p>
+
+					</section>
+
+					<section>
+
+						<h2>SVG<span style="text-transform:lowercase">s</span></h2>
+
+						<p><strong>Vector based</strong>, which means the shapes are defined by mathematical formulae, <em>not</em> individually-assigned pixels.</p>
+
+					</section>
+
+					<section>
+
+						<p><code>&lt;img src="my-logo.svg"/></code></p>
+
+					</section>
+
+					<section>
+
+						<p><code><span style="color:#80ffb2">&lt;svg viewBox="0 0 100 100"></span><br/>
+	<span style="color:#e5ff80">&lt;rect x="0" y="0" width="50" height="100" fill="#ffff00"/></span><br/>
+	<span style="color:#80b2ff">&lt;rect x="50" y="0" width="50" height="50" fill="#0000ff" /></span><br/>
+	<span style="color:#ff8080">&lt;rect x="50" y="50" width="50" height="50" fill="#ff0000" /></span><br/>
+<span style="color:#80ffb2">&lt;/svg></span></code></p>
+
+					</section>
+
+
+					<section>
+
+<svg viewBox="0 0 120 120" class="sample-svg">
+	<rect x="10" y="10" width="50" height="100" fill="#ffff00" class="left" />
+	<rect x="60" y="10" width="50" height="50" fill="#0000ff" class="top-right" />
+	<rect x="60" y="60" width="50" height="50" fill="#ff0000" class="bottom-right" />
+</svg>
+
+					</section>
+
 				</section>
 
 
@@ -239,9 +290,13 @@
 
 				<section>
 
-					<h2>Thanks</h2>
+					<h3>Thanks!</h3>
 
-					<p>Now go forth and <strong>RESPONSIFY</strong>!</p>
+					<p>[<strong>Tracy Rotton</strong>](<a href="https://twitter.com/taupecat">@taupecat</a>)</p>
+
+					<p>WordPress / Web / Twitter / all the other things</p>
+
+					<p><img src="images/avatar.jpg" style="height:25vh;width:auto"/></p>
 
 				</section>
 
