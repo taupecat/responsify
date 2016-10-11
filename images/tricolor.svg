@@ -1,0 +1,5 @@
+<svg viewBox="0 0 120 120" class="sample-svg" xmlns="http://www.w3.org/2000/svg">
+	<rect x="10" y="10" width="50" height="100" fill="#ffff00" class="left" />
+	<rect x="60" y="10" width="50" height="50" fill="#0000ff" class="top-right" />
+	<rect x="60" y="60" width="50" height="50" fill="#ff0000" class="bottom-right" />
+</svg>

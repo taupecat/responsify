@@ -18,6 +18,8 @@
 			}
 
 			rect.top-right {
+				/*animation: spinner 5s infinite linear reverse;
+				transform-origin: 50% 50%;*/
 			}
 
 			rect.bottom-right {
@@ -142,21 +144,30 @@
 
 						<h2>srcset & sizes</h2>
 
-						<p><code>&lt;img src="image-300x200.jpg" alt="Placekittenz!"<br/><br/>
+						<p>
+							<code>
 
-						<span class="fragment">
-							srcset="<span style="color:#80b2ff">image-1200x800.jpg 1200w</span>,<br/>
-							<span style="color:#80ffb2">image-1024x683.jpg 1024w</span>,<br/>
-							<span style="color:#e5ff80">image-768x512.jpg 768w</span>,<br/>
-							<span style="color:#ff8080">image-300x200.jpg 300w</span>"<br/><br/>
-						</span>
+								&lt;img width="1200" height="800" src="/wp-content/uploads/2016/10/placekitten-1200x800.jpg" alt="Placekittenz!"<br/><br/>
 
-						<span class="fragment">
-							sizes="84.61725vw,<br/>
-							(min-width: 44.375em) 65.1385915492958vw"/>
-						</span>
+								<span class="fragment">
+									srcset="<span style="color:#80b2ff">[…]/placekitten-1200x800.jpg 1200w</span>,<br/>
+									<span style="color:#80ffb2">[…]/placekitten-300x200.jpg 300w</span>,<br/>
+									<span style="color:#e5ff80">[…]/placekitten-768x512.jpg 768w</span>,<br/>
+									<span style="color:#ff8080">[…]/placekitten-1024x683.jpg 1024w</span>"<br/><br/>
+								</span>
 
-						</code></p>
+								<span class="fragment">
+									sizes="<span style="color:#80b2ff">(max-width: 709px) 85vw</span>,<br/>
+									<span style="color:#80ffb2">(max-width: 909px) 67vw</span>,<br/>
+									<span style="color:#e5ff80">(max-width: 984px) 60vw</span>,<br/>
+									<span style="color:#ff8080">(max-width: 1362px) 62vw</span>,<br/>
+									840px"/>
+								</span>
+
+							</code>
+
+						</p>
+
 					</section>
 
 					<section>
@@ -216,7 +227,7 @@
 
 					<section>
 
-						<p>But for true responsiveness, you need to <strong>think outside the pixel</strong>.</p>
+						<p>But for <em>true</em> responsiveness, you need to <strong>think outside the pixel</strong>.</p>
 
 					</section>
 
@@ -230,28 +241,30 @@
 
 					<section>
 
-						<p><code>&lt;img src="my-logo.svg"/></code></p>
+						<p><code>&lt;img src="images/tricolor.svg"/></code></p>
+
+						<p><img src="images/tricolor.svg" style="height:33vh;width:auto"/></p>
 
 					</section>
 
 					<section>
 
 						<p><code><span style="color:#80ffb2">&lt;svg viewBox="0 0 100 100"></span><br/>
-	<span style="color:#e5ff80">&lt;rect x="0" y="0" width="50" height="100" fill="#ffff00"/></span><br/>
-	<span style="color:#80b2ff">&lt;rect x="50" y="0" width="50" height="50" fill="#0000ff" /></span><br/>
-	<span style="color:#ff8080">&lt;rect x="50" y="50" width="50" height="50" fill="#ff0000" /></span><br/>
-<span style="color:#80ffb2">&lt;/svg></span></code></p>
+						<span style="color:#e5ff80">&lt;rect x="0" y="0" width="50" height="100" fill="#ffff00"/></span><br/>
+						<span style="color:#80b2ff">&lt;rect x="50" y="0" width="50" height="50" fill="#0000ff" /></span><br/>
+						<span style="color:#ff8080">&lt;rect x="50" y="50" width="50" height="50" fill="#ff0000" /></span><br/>
+						<span style="color:#80ffb2">&lt;/svg></span></code></p>
 
 					</section>
 
 
 					<section>
 
-<svg viewBox="0 0 120 120" class="sample-svg">
-	<rect x="10" y="10" width="50" height="100" fill="#ffff00" class="left" />
-	<rect x="60" y="10" width="50" height="50" fill="#0000ff" class="top-right" />
-	<rect x="60" y="60" width="50" height="50" fill="#ff0000" class="bottom-right" />
-</svg>
+						<svg viewBox="0 0 120 120" class="sample-svg">
+							<rect x="10" y="10" width="50" height="100" fill="#ffff00" class="left" />
+							<rect x="60" y="10" width="50" height="50" fill="#0000ff" class="top-right" />
+							<rect x="60" y="60" width="50" height="50" fill="#ff0000" class="bottom-right" />
+						</svg>
 
 					</section>
 
@@ -273,6 +286,18 @@
 
 					<section>
 
+						<h3>Flexbox lets you…</h3>
+
+						<ul>
+							<li class="fragment">Have true, no-hack, equal-height columns</li>
+							<li class="fragment">Separate source order from layout</li>
+							<li class="fragment">Be inherently responsive</li>
+						</ul>
+
+					</section>
+
+					<section>
+
 						<p>Flexbox is supported by <strong>97%</strong> of browsers globally.</p>
 
 						<p><small>Source: caniuse.com</small></p>
@@ -280,10 +305,6 @@
 						<p><img src="images/caniuse-flexbox.png" style="max-height:50vh"/></p>
 
 					</section>
-
-
-
-
 
 				</section>
 
