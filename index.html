@@ -15,19 +15,19 @@
 			.sample-svg { display:block;width:50vmin;height:50vmin;margin:0 auto;background-color:rgba(0, 0, 0, 0.5); }
 
 			rect.left {
-				/*fill: ;*/
+				fill: purple;
 			}
 
 			rect.top-right {
-				/*fill: ;*/
-				/*animation: spinner 5s infinite linear reverse;
-				transform-origin: 50% 50%;*/
+				fill: orange;
+				animation: spinner 5s infinite linear reverse;
+				transform-origin: 50% 50%;
 			}
 
 			rect.bottom-right {
-				/*fill: ;*/
-				/*animation: spinner 5s infinite linear;
-				transform-origin: 50% 50%;*/
+				fill: green;
+				animation: spinner 5s infinite linear;
+				transform-origin: 50% 50%;
 			}
 
 			@-webkit-keyframes spinner {
@@ -74,9 +74,12 @@
 						<h3>Responsive Websites in 2010</h3>
 
 						<ul>
-							<li class="fragment">Responsive Formula</li>
-							<li class="fragment">Media Queries</li>
-							<li class="fragment">Flexible Media</li>
+							<li class="fragment">Responsive Formula:<br/>
+							<strong><code>target ÷ context = result</code></strong></li>
+							<li class="fragment">Media Queries:<br/>
+							<strong><code>@media (min-width: 48em) {<br/><span style="margin-left:2em">/* do something awesome */<br/>}</span></code></strong></li>
+							<li class="fragment">Flexible Media<br/>
+							<span class="fragment"><em>Let's come back to this.</em></span></li>
 						</ul>
 
 					</section>
@@ -155,7 +158,7 @@
 						<p>
 							<code>
 
-								&lt;img width="1200" height="800" src="/wp-content/uploads/2016/10/placekitten-1200x800.jpg" alt="Placekittenz!"<br/><br/>
+								&lt;img src="/wp-content/uploads/2016/10/placekitten-1200x800.jpg" alt="Placekittenz!"<br/><br/>
 
 								<span class="fragment">
 									srcset="<span style="color:#80b2ff">[…]/placekitten-1200x800.jpg 1200w</span>,<br/>
@@ -218,9 +221,15 @@
 							&lt;picture&gt;<br/>
 								&lt;source media="(min-width: 40em)" srcset="big.jpg 1x, big-hd.jpg 2x"><br/>
 								&lt;source srcset="small.jpg 1x, small-hd.jpg 2x"><br/>
-								&lt;img src="fallback.jpg" alt=""><br/>
+								&lt;img src="fallback.jpg" alt="Moar kittenz!"><br/>
 							&lt;/picture>
 						</code></p>
+					</section>
+
+					<section>
+
+						<p><code>add_image_size( $name, $width, $height, $hard_crop );</code></p>
+
 					</section>
 
 					<section>
